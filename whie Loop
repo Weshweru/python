@@ -1,0 +1,20 @@
+# in python there two primitive lops
+     #while loop
+     # for loop
+#with for loop we can execute a set of statement as long a there are true
+
+
+
+##break statement is when you want to stop the loop even if the loop is true
+
+
+##using continue statement
+m=100
+while m>1:
+
+ if m ==0:
+  print (m)
+  m-=10
+
+  
+

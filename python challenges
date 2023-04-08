@@ -1,0 +1,13 @@
+
+def snave(input):
+    if (input%15==0 ):
+       return "FooBar"
+    
+    if input %5==0:
+        return "foo"
+    
+    if input%3==0:
+        return "Bar"
+    
+    return input   
+print(snave(15))

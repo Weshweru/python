@@ -1,0 +1,80 @@
+"""function-there are block of codes which only run unless there are called
+they are represented by DEF keyword in python 
+
+From a function's perspective:
+
+A parameter is the variable listed inside the parentheses in the function definition.
+
+An argument is the value that is sent to the function when it is called.
+
+fname-is our parameter
+same case as the argument name  
+
+when calling argument in the function you call by the number of argument in the function parameter 
+nothing more or less
+But whenever you don't know the number of argument you add *before the parameter
+
+# indentation is very key when it comes to python
+
+"""
+
+
+"""
+def my_function(fname):
+    print( fname + "This is my function")
+my_function("fname")
+my_function("Mosese")
+my_function ("Brian")
+my_function ("Mophs")"""
+
+
+"""But whenever you don't know the number of argument you add *before the parameter"""
+"""def my_function(*kids):
+    print(kids,"There first names")
+my_function("Rose","Jaden","Denzel")
+"""
+
+"""def my_function(child1,child2,child3):
+        print("This is my first child", child3)
+my_function(child1="Gavy",child2="Hassan",child3="Mutua")
+
+def sta_work(fname,sname):
+        print(f"Hello {fname},{sname}")
+        print("How are you doing")
+
+
+sta_work("Moses", "Weru")"""
+
+
+def mosese(mark1,mark2):
+        print(f"you did your best getting {mark1}, {mark2} marks")
+        print("keep on working hard")
+
+
+mosese("60","70")
+
+
+def increment(digit,by):
+      return digit*by
+  
+results= increment(2,3)
+print (results)  
+
+"""A bit of Dictionary in Functions"""
+
+def customer_data(**data):
+       print(data["Age"] )
+
+customer_data(id=2,name="Mosese", Age=21) 
+
+
+def snave(input):
+    if input%3 and input%5==0:
+        result=("FooBar")
+    if input%5==0:
+        result=("foo")
+    if input%3==0:
+        result=("Bar")
+    result=(input)   
+    
+    print(snave(5))

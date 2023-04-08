@@ -1,0 +1,64 @@
+a=100
+b=30
+if a<b :
+ print("a is less than b")
+elif a==b:
+  print("a is equal to b")
+else :
+  print("a is greater than b")
+
+
+# How to combine the above code in a single line
+
+a=34
+b=12
+print("A") if a > b else print("B")
+
+#using AND which is bisicaly used to join conditional statement where both statement must be true
+
+a=78
+b=45
+c=34
+if a>b and a< c :
+ print ("both conditions are true")
+else:
+  print("both conditions are not true")
+
+  #while using or statement
+  a=45
+  b=89
+  c=67
+  if a>b or a<c :
+    print("single condition is true")
+     
+
+     # is a keyword logical operator that is used to reverse the result of condition statement
+
+a=62
+b=37
+c=34
+if not a<b  :
+ print("both conditions aren't true")
+
+ #Nested If -this is having if statement inside another if statement
+
+a=62
+b=37
+c=34
+if a >b :
+  print("AB")
+  if a>c:
+    print("CD")
+  else:
+    print("Waweru")
+
+    #PASS statement
+    #Whenever you have no content i the if statement you introduce the pass statement to avoid some error
+
+
+a=62
+b=37
+c=34
+if a<b:
+  pass
+
